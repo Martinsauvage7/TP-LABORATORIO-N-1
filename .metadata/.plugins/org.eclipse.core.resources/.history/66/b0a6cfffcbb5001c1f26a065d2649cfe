@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float Dividir(float dividendo,float divisor);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+
+	resultado= Dividir(10,0);
+	printf("la division es %f\n", resultado);
+	return 0;
+}
+
+float Dividir(float dividendo,float divisor)
+	{
+		float rtn;
+		if(divisor ==0)
+			{
+			printf("No se puede dividir por 0\n");
+			return 0;
+			}
+			else
+			{
+				rtn= dividendo/divisor;
+			}
+			return rtn;
+	}
+
+
+
+
+
+

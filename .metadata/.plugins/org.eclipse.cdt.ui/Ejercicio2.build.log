@@ -1,0 +1,9 @@
+14:56:09 **** Incremental Build of configuration Debug for project Ejercicio2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/EugeS/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/EugeS/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\EugeS\AppData\Local\Microsoft\WindowsApps;C:\Users\EugeS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\EugeS\.dotnet\tools;C:\Users\EugeS\AppData\Local\GitHubDesktop\bin;C:\Users\EugeS\eclipse\cpp-2022-03\eclipse]
+
+14:56:09 Build Failed. 1 errors, 0 warnings. (took 168ms)
+

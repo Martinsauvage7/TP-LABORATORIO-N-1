@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn.h"
+#include <string.h>
+#include <strings.h>
+
+
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int edad;
+	int peso;
+	int respuesta;
+
+	respuesta=int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+}
+
+
+
+
+
+

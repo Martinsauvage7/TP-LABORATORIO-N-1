@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Suma(int primerNumero,int segundoNumero);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int resultado;
+
+	printf("Ingrese numero 1\n");
+	scanf("%d",&primerNumero);
+	printf("Ingrese numero 2\n");
+	scanf("%d",&segundoNumero);
+	resultado= Suma();
+}
+
+int Suma(int n1,int n2)
+	{
+
+	}
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : Proyecto1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int numeros=7;
+	float numerosdecimales=7.5;
+
+	printf("aca voy a mostrar el numero : %d ", numeros);
+	printf("aca voy a mostrar el numero con decimal :%f " , numerosdecimales);
+}

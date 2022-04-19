@@ -1,0 +1,12 @@
+#ifndef UTN_H_
+#define UTN_H_
+
+char GetChar();
+
+int GetInt();
+
+int esInt(char c);
+
+int utn_getNumero()
+
+#endif /* UTN_H_ */

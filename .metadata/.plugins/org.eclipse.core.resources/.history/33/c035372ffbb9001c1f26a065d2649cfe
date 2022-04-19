@@ -1,0 +1,22 @@
+/*
+ * UTN.c
+ *
+ *  Created on: 11 abr. 2022
+ *      Author: Tiki
+ */
+ char GetChar()
+ {
+	 char aux;
+	 return scanf("%c",&aux);
+ }
+
+int GetInt()
+{
+	int aux;
+	return scanf("%d",&aux);
+}
+
+int esInt(char c);
+{
+	return c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '1'
+}

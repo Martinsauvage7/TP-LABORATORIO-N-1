@@ -1,0 +1,145 @@
+15:38:06 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:32:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+15:38:11 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:32:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+15:38:54 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:31:6: error: conflicting types for 'utn_getChar'
+ char utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+      ^~~~~~~~~~~
+In file included from ..\src\utn.c:3:0:
+..\src\utn.h:6:5: note: previous declaration of 'utn_getChar' was here
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+..\src\utn.c:32:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+15:39:00 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:32:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+15:40:38 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_getChar':
+..\src\utn.c:40:16: error: 'bufferInt' undeclared (first use in this function)
+    scanf("%c",&bufferInt);
+                ^~~~~~~~~
+..\src\utn.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+15:41:24 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+15:55:46 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:16:25: warning: passing argument 1 of 'utn_getChar' from incompatible pointer type [-Wincompatible-pointer-types]
+  respuesta= utn_getChar(&letra, "La letra?\n", "Error la letra debe ser desde A a J", 'A' , 'J' , 1);
+                         ^
+In file included from ..\src\Proyecto1.c:3:0:
+..\src\utn.h:6:5: note: expected 'char *' but argument is of type 'int *'
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+..\src\Proyecto1.c:20:2: error: expected ';' before '}' token
+  }
+  ^
+..\src\Proyecto1.c:12:6: warning: unused variable 'edad' [-Wunused-variable]
+  int edad;
+      ^~~~
+15:56:05 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:15:25: warning: passing argument 1 of 'utn_getChar' from incompatible pointer type [-Wincompatible-pointer-types]
+  respuesta= utn_getChar(&letra, "La letra?\n", "Error la letra debe ser desde A a J", 'A' , 'J' , 1);
+                         ^
+In file included from ..\src\Proyecto1.c:3:0:
+..\src\utn.h:6:5: note: expected 'char *' but argument is of type 'int *'
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+..\src\Proyecto1.c:19:2: error: expected ';' before '}' token
+  }
+  ^
+15:58:18 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:15:25: warning: passing argument 1 of 'utn_getChar' from incompatible pointer type [-Wincompatible-pointer-types]
+  respuesta= utn_getChar(&letra, "La letra?\n", "Error la letra debe ser desde A a J\n", 'A' , 'J' , 1);
+                         ^
+In file included from ..\src\Proyecto1.c:3:0:
+..\src\utn.h:6:5: note: expected 'char *' but argument is of type 'int *'
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+15:59:04 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:15:25: warning: passing argument 1 of 'utn_getChar' from incompatible pointer type [-Wincompatible-pointer-types]
+  respuesta= utn_getChar(&letra, "La letra?\n", "Error la letra debe ser desde A a J", 'A' , 'J' , 1);
+                         ^
+In file included from ..\src\Proyecto1.c:3:0:
+..\src\utn.h:6:5: note: expected 'char *' but argument is of type 'int *'
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+15:59:40 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:15:25: warning: passing argument 1 of 'utn_getChar' from incompatible pointer type [-Wincompatible-pointer-types]
+  respuesta= utn_getChar(&letra, "La letra?\n", "Error la letra debe ser desde A a J\n", 'A' , 'J' , 1);
+                         ^
+In file included from ..\src\Proyecto1.c:3:0:
+..\src\utn.h:6:5: note: expected 'char *' but argument is of type 'int *'
+ int utn_getChar(char* pResultado, char * mensaje, char* mensajeError, char minimo, char maximo, int reintentos);
+     ^~~~~~~~~~~
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+15:59:56 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+16:01:15 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+..\src\Proyecto1.c: In function 'main':
+..\src\Proyecto1.c:19:10: error: expected expression before '=' token
+   return =0;
+          ^
+16:02:01 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+Info: Nothing to build for Proyecto1
+16:07:52 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+16:08:08 **** Incremental Build of configuration Debug for project Proyecto1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Proyecto1.o" "..\\src\\Proyecto1.c" 
+gcc -o Proyecto1.exe "src\\Proyecto1.o" "src\\utn.o" 
+Info: Nothing to build for Proyecto1

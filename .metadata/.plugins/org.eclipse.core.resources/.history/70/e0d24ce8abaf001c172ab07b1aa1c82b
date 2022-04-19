@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int maximo;
+	int minimo;
+	int i;
+	int flag = TRUE;
+	int bufferint;
+	char respuesta='s';
+
+	do
+	{
+		printf("Ingrese un numero %d\n", i);
+		scanf("%d",&bufferint);
+
+		if(flag)
+		{
+			maximo=bufferint;
+			minimo=bufferint;
+			flag=FALSE;
+		}
+		else
+		{
+			if(bufferint>maximo)
+			{
+				maximo=bufferint;
+			}
+			if(bufferint<minimo)
+			{
+				minimo=bufferint;
+			}
+		}
+	}
+	while("%c",!=respuesta)
+
+	printf("El valor minimo es %d y el valor maximo es %d", minimo, maximo);
+	return 0;
+}

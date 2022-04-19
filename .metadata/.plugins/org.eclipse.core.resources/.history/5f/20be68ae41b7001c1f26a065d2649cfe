@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float Dividir(int primerNumero,int divisor);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int resultado;
+
+	printf("Ingrese numero 1\n");
+	scanf(%d, )
+	resultado= Suma(50,10);
+}
+
+int Suma(int n1,int n2)
+	{
+
+	}
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn.h"
+
+
+int Division(float* presultado, int n1,int n2);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+}
+
+
+
+
+
+

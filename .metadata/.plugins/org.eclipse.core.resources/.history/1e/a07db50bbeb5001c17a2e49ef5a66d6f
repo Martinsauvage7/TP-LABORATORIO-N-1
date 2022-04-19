@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float Dividir(float dividendo,float divisor);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+
+	resultado= Dividir (80, 0);
+	printf("la division es %f\n", resultado);
+}
+	float Dividir(float dividendo,float divisor)
+		{
+		if(dividendo ==0 || divisor ==0)
+			{
+				printf("el numero ingresado no es posible dividirlo");
+return
+			}
+			return 0;
+		 float rtn;
+		 printf("PASE\n");
+		rtn=dividendo/divisor;
+
+		return rtn;
+		}
+
+

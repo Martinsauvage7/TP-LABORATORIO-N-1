@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : Proyecto1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+
+	int maximo;
+	int minimo;
+	int i;
+	int flag;
+	int bufferint;
+
+	for(i=0;i<5;i++)
+	{
+		printf("Ingrese un numero %d/n", i);
+		scanf("%d",&bufferint);
+
+		if(flag)
+		{
+			maximo=bufferint;
+			minimo=bufferint;
+			flag=FALSE;
+		}
+		else
+		{
+			if(bufferint>maximo)
+			{
+				maximo=bufferint;
+			}
+			if(bufferint<minimo)
+			{
+				minimo=bufferint;
+			}
+		}
+	}
+
+	printf("El valor minimo es %d y el valor maximo es %d", minimo, maximo);
+	return 0;
+}

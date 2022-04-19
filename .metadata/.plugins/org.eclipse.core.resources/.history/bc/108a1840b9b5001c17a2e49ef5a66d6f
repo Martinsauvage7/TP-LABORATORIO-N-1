@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Multiplicar(int nA,int nB);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int n1 =5;
+	int n2 =5;
+	int resultado;
+
+	resultado= Multiplicar (n1, n2);
+	printf("la multiplicacion es %d\n", resultado);
+	return 0;
+}
+	int Multiplicar(int nA,int nB)
+		{
+		 int rtn;
+		 printf("PASE\n");
+		rtn=nA*nB;
+
+		return rtn;
+		}
+
+

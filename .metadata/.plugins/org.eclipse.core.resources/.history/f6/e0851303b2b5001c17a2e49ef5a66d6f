@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+
+int Suma(int n1,int n2)
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int n1 =10;
+	int n2 =20;
+
+resultado= Suma (n1, n2);
+	return 0;
+
+}

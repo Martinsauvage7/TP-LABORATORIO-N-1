@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <utn.h"">
+#include <ctype.h>
+
+char GetChar()
+{
+	char aux;
+	fflush(stdin);
+	return scanf("%c",&aux);
+}
+
+int GetInt()
+{
+	int aux;
+	fflush(stdin);
+	return scanf("%d",&aux);
+}
+
+int esInt(char c)
+{
+	return isdigit(c);
+}

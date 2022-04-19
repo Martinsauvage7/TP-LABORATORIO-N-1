@@ -1,0 +1,11 @@
+/*
+ * UTN.c
+ *
+ *  Created on: 11 abr. 2022
+ *      Author: Tiki
+ */
+ char GetChar()
+ {
+	 return scanf("%c";)
+ }
+

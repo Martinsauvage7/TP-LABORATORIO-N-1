@@ -1,0 +1,17 @@
+/*
+ * UTN.c
+ *
+ *  Created on: 11 abr. 2022
+ *      Author: Tiki
+ */
+ char GetChar()
+ {
+	 char aux;
+	 return scanf("%c",&aux);
+ }
+
+int GetInt()
+{
+
+	return
+}

@@ -1,0 +1,19 @@
+/*
+ * UTN.h
+ *
+ *  Created on: 11 abr. 2022
+ *      Author: Tiki
+ */
+
+#ifndef UTN_H_
+#define UTN_H_
+
+char GetChar();
+
+int GetInt();
+
+int esInt(char c);
+
+
+
+#endif /* UTN_H_ */

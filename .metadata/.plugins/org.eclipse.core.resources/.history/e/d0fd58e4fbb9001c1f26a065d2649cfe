@@ -1,0 +1,25 @@
+/*
+ * UTN.c
+ *
+ *  Created on: 11 abr. 2022
+ *      Author: Tiki
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+ char GetChar()
+ {
+	 char aux;
+	 return scanf("%c",&aux);
+ }
+
+int GetInt()
+{
+	int aux;	return scanf("%d",&aux);
+}
+
+int esInt(char c);
+{
+	return isdigit(c);
+}

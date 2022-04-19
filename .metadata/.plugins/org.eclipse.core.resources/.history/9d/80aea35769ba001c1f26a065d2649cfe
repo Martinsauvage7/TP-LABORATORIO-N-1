@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include
+
+
+int Division(float* presultado, int n1,int n2);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+	int primerNumero;
+	int segundoNumero;
+	int respuesta;
+
+	printf("Ingrese numero 1\n");
+	primerNumero = GetInt();
+	printf("Ingrese numero 2\n");
+	segundoNumero = GetInt();
+
+		respuesta= Division (&resultado,primerNumero,segundoNumero);
+		if(respuesta ==0)
+		{
+			printf("el resultado es de %.2f\n",resultado);
+		}
+		else
+		{
+			printf("Error.");
+		}
+		return 0;
+}
+
+int Division(float* presultado, int n1,int n2)
+{
+	float resultado;
+	int retorno=-1;
+
+	if(presultado != NULL && n2!=0)
+	{
+		resultado=(float)n1/n2;
+		*presultado= resultado;
+		retorno= 0;
+	}
+		return retorno;
+}
+
+
+
+
+
+

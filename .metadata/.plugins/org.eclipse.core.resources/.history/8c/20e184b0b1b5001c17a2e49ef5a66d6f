@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TRUE 1
+#define FALSE 0
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int n1;
+	int n2;
+	int bufferint;
+
+	return 0;
+
+}

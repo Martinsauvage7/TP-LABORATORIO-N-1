@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Suma(int nA,int nB);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int n1 =10;
+	int n2 =20;
+	int resultado;
+
+	resultado= Suma (n1, n2);
+	printf("la suma es %d"\n, resultado);
+	return 0;
+}
+	int Suma(int nA,int nB)
+		{
+		 int rtn;
+		 printf("PASE");
+		rtn=nA+nB;
+
+		return rtn;
+		}
+
+

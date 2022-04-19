@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn.h"
+#include <string.h>
+#include <strings.h>
+
+
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int edad;
+	int letra;
+	int respuesta;
+
+	respuesta= utn_getChar(&letra, "La letra?\n", )
+}
+
+
+
+
+
+

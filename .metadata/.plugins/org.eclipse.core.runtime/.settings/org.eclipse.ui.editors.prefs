@@ -1,0 +1,7 @@
+AbstractTextEditor.Color.Foreground=255,128,64
+additionIndicationColor=255,128,64
+bookmarkIndicationColor=255,128,0
+changeIndicationColor=255,128,0
+deletionIndicationColor=128,255,128
+eclipse.preferences.version=1
+spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine

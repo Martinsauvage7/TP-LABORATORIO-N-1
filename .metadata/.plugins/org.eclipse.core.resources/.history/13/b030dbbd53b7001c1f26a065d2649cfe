@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Suma(int primerNumero,int segundoNumero);
+int Resta(int primerNumero,int segundoNumero);
+int Multiplicacion(int primerNumero,int segundoNumero);
+float Division(int primerNumero,int segundoNumero);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+	char operacion;
+	int primerNumero;
+	int segundoNumero;
+
+	printf("Ingrese numero 1\n");
+	scanf("%d",&primerNumero);
+	printf("Ingrese que funcion desea usar\n");
+	scanf("%c",&operacion);
+	printf("Ingrese numero 2\n");
+	scanf("%d",&segundoNumero);
+
+	switch (operacion)
+	{
+	case "Suma":
+		resultado=Suma(primerNumero,segundoNumero);
+		break;
+	case "Resta":
+		resultado=Resta(primerNumero,segundoNumero);
+		break;
+	case "Multiplicacion":
+		resultado=Multiplicacion(primerNumero,segundoNumero);
+		break;
+	case "Division":
+		resultado=Division(primerNumero,segundoNumero);
+		break;
+
+	}
+
+printf("el resultado es de %f, resultado");
+
+return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	resultado= (primerNumero,segundoNumero);
+	printf("el resultado es de %f", resultado);
+	return 0;
+}
+
+int Suma(int n1,int n2)
+	{
+	int resultado;
+	resultado= n1+n2;
+		return resultado;
+	}
+int Resta(int n1,int n2)
+	{
+	int resultado;
+	resultado= n1-n2;
+	return resultado;
+	}
+int Multiplicacion(int n1,int n2)
+	{
+	int resultado;
+	resultado= n1*n2;
+	return resultado;
+	}
+float Division(int n1,int n2)
+	{
+	float resultado;
+	resultado= n1/n2;
+	return resultado;
+	}
+
+
+
+
+
+
+

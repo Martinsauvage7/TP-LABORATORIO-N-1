@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Proyecto1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	setbuf(stdout,NULL);
+	int numeros;
+	float promedio;
+	int contador=0;
+	int acumulador=0;
+	char respuesta="si";
+
+	while(respuesta=="si")
+	{
+		printf("Ingrese un numero %d", contador);
+		scanf("%d", &numeros);
+		acumulador=acumulador+numeros;
+		printf("\n ¿Desea Continuar? si/no \n");
+				scanf("%c",&respuesta);
+	}
+	promedio=(float)acumulador/contador;
+	printf("el promedio de los numeros ingresados es de %f", promedio);
+	printf("Desea ingresar otro numero? %c", respuesta);
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Suma(int primerNumero,int segundoNumero);
+int Resta(int primerNumero,int segundoNumero);
+int Multiplicacion(int primerNumero,int segundoNumero);
+float Division(int primerNumero,int segundoNumero);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+	float primerNumero;
+	float segundoNumero;
+
+	printf("Ingrese numero 1\n");
+	scanf("%f",&primerNumero);
+	printf("Ingrese que funcion desea usar\n");
+	scanf("%f","Suma","Resta","Multiplicacion","Division");
+	resultado= (primerNumero,segundoNumero);
+	printf("el resultado es de %f", resultado);
+	return 0;
+}
+
+float Suma(int n1,int n2)
+	{
+	float resultado;
+	resultado= n1+n2;
+		return resultado;
+	}
+float Resta(int n1,int n2)
+	{
+	float resultado;
+	resultado= n1+n2;
+	return resultado;
+	}
+float Multiplicacion(int n1,int n2)
+	{
+	float resultado;
+	resultado= n1*n2;
+	return resultado;
+	}
+float Division(int n1,int n2)
+	{
+	float resultado;
+	resultado= n1/n2;
+	return resultado;
+	}
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float Division(float * resultado, int primerNumero,int segundoNumero);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	float resultado;
+	int primerNumero;
+	int segundoNumero;
+	int respuesta;
+	int retorno=-1;
+	printf("Ingrese numero 1\n");
+	fflush(stdin);
+	scanf("%d",&primerNumero);
+	printf("Ingrese numero 2\n");
+	fflush(stdin);
+	scanf("%d",&segundoNumero);
+
+		respuesta=Division (&resultado,primerNumero/segundoNumero);
+		if(respuesta ==0)
+			{
+				return retorno;
+			}
+		else
+			{
+			return resultado;
+			}
+		return 0;
+}
+
+float Division(float* presultado, int n1,int n2)
+{
+	float resultado;
+	int retorno=-1;
+
+if(presultado != NULL && (float)n2!=0)
+{
+	resultado=(float)n1/n2;
+*presultado= resultado;
+return retorno=0;
+}
+return retorno;
+
+
+
+
+
+
+
+
